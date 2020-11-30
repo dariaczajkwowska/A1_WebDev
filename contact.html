@@ -25,7 +25,30 @@
     </nav> 
 
 <body>
-  
+    <section class="contact_title">
+        <h1>Want to get in touch? </h1>
+        <h2> Fill out this form now...</h2>
+    </section>
+    <form action="action" method="GET">
+        <label for="name">First Name: </label><input type="text" name="firstname" placeholder="Enter Name..." id="name"/>
+        <label for="surname">Surname: </label><input type="text" name="surname" placeholder="Enter Surname..." id="surname"/>
+        <label for="email">Your Email: </label><input type="text" name="email" placeholder="Enter Email..." id="email"/>
+        <label for="mgender">Male: </label><input type="radio" name="gender" value="male" id="mgender"/>
+        <label for="fgender">Female: </label><input type="radio" name="gender" value="female" id="fgender"/>
+        <label for="ngender">Prefere Not To Say: </label><input type="radio" name="gender" value="null" id="ngender"/>
+        <label for="continent">Please select where you are writing from:</label> <select name="continent">
+            <option Value="asia"> Asia </option>
+            <option Value="africa"> Africa </option>
+            <option Value="namerica"> North America </option>
+            <option Value="samerica"> South America </option>
+            <option Value="antarctica"> Antarctica </option>
+            <option Value="europe"> Europe </option>
+            <option Value="australia"> Australia </option>
+        </select>
+        <label for="reason">What is you main purpose for contact:</label>
+        <textarea name="text" placeholder="Enter Purpose..." id="reason"></textarea>
+        <input type="submit" value="Submit" name="submit"/>
+    </form>
 
 </body>
 

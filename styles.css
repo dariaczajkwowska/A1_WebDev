@@ -148,7 +148,48 @@ color: rgb(132, 145, 145);
     width: 300px;
 }
 
-/* FOTTER STLYES...............................................................................*/
+/* CONTACT STYLS............................................................................*/
+h1{
+    font-style: oblique;
+    color:rgb(55, 137, 175) ;
+}
+h2{
+    font-weight: 100;
+    color: rgb(55, 137, 175);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: #E3F1FE;
+    color: rgb(55, 137, 175);
+    
+    justify-content: space-around;
+    width: 400px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+label{
+font-size: normal;
+font-weight: 600;
+margin: auto;
+}
+
+input{
+    width: 200px;
+    margin: auto;
+}
+select{
+    width: 200px;
+    margin: auto;
+}
+textarea{
+    width: 200px;
+    margin: auto;
+}
+
+/* FOOTER STLYES...............................................................................*/
 /* Reference from Daria Czajkowska AS1 retake*/
 /* styles for footer */
 footer {
