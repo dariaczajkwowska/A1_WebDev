@@ -7,13 +7,15 @@
     <title>Daria Czajkowska Contact </title>
     <!-- Linking the styles sheet with all the css written inside -->
     <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="styles-mobile.css" rel="stylesheet" media ='screen and (max-width:800px)'>
+    <link href="styles-desktop.css" rel="stylesheet" media ='screen and (min-width:800px)'>
     <!-- Linking selected font type from website font awesome-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet"
         type="text/css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
-
+<body>
     <nav> 
         <ul class="navigation_links">
             <li><a href="index.html">Home</a></li>
@@ -24,7 +26,7 @@
         </ul>
     </nav> 
 
-<body>
+
     <section class="contact_title">
         <h1 class="c_title">Want to get in touch? </h1>
         <h2 class="c_title2"> Fill out this form now...</h2>
@@ -36,7 +38,7 @@
         <label for="mgender">Male: </label><input type="radio" name="gender" value="male" id="mgender"/>
         <label for="fgender">Female: </label><input type="radio" name="gender" value="female" id="fgender"/>
         <label for="ngender">Prefere Not To Say: </label><input type="radio" name="gender" value="null" id="ngender"/>
-        <label for="continent">Please select where you are writing from:</label> <select name="continent">
+        <label for="continent">Please select where you are writing from:</label> <select name="continent" id="continent">
             <option Value="asia"> Asia </option>
             <option Value="africa"> Africa </option>
             <option Value="namerica"> North America </option>
@@ -50,14 +52,13 @@
         <input type="submit" value="Submit" name="submit"/>
     </form>
 
-</body>
+
 
 
 
 
 
 <footer class="footer">
-    <h4> Website created by Daria Czajkowska </h4>
     <ul>
         <li>
             <a href="https://www.facebook.com/daria.czajkowska.10" class='rb'>
@@ -85,18 +86,15 @@
                 <li>
                     <a href="https://codepen.io/dariaczajkwowska" class='rb'>
                         <i class="fab fa-codepen"></i>
-        
-        
-                        </i>
-        
+
                     </a></li>
 
 
     </ul>
-
+    &copy; Daria Czajkowska 2020
 
 </footer>
-
+</body>
 
 
 </html>

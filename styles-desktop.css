@@ -1,0 +1,27 @@
+/*NAVIGATION STYLES.........................................................................*/
+
+nav{
+    background-color:#E3F1FE;
+    height: 40px;
+    width: 100%;
+}
+
+nav ul{
+    list-style-type: none;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: x-large;
+}
+
+a{
+    color: rgb(55, 137, 175);
+    border-radius: 20px;
+    text-decoration: none;
+     
+}
+
+a:hover{
+color: rgb(132, 145, 145);
+}

@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*NAVIGATION STYLES.........................................................................*/
+
+nav{
+    background-color:#E3F1FE;
+    height: 40px;
+    width: 100%;
+}
+
+nav ul{
+    list-style-type: none;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: x-large;
+}
+
+a{
+    color: rgb(55, 137, 175);
+    border-radius: 20px;
+    text-decoration: none;
+     
+}
+
+a:hover{
+color: rgb(132, 145, 145);
+}
+@media only screen and (max-width:800px) {
+    nav{
+        background-color:#E3F1FE;
+        height: 20px;
+        width: 100%;
+    }
+    
+    nav ul{
+        list-style-type: none;
+        font-style: normal;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: x-small;
+    }
+
+    .title1{
+        font-style: italic;
+        font-weight: 100;
+        color:  #81c8da;
+        font-size: 25px;
+        margin-left: 10px;
+        margin-bottom: 40px;
+    }
+    
+    
+    .logo{
+margin: auto;
+    }
+    
+    
+    .title3{
+        font-style: normal;
+        font-weight: 100;
+        color:  #81c8da;
+        font-size: 25px;
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+    p{
+        font-size: small;
+        margin: 50px;
+        font-weight: 900;
+    }
+    .video{
+        position:absolute;
+
+        min-width: 10%;
+        min-height: 50%;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .sr_body{
+        font-size: small;
+        width: 400px;
+    }
+
+    .text{
+        width:350px;
+    }
+    }

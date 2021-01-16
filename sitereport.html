@@ -7,13 +7,15 @@
     <title>Daria Czajkowska Site Report </title>
     <!-- Linking the styles sheet with all the css written inside -->
     <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="styles-mobile.css" rel="stylesheet" media= 'screen and (max-width:800px)'>
+    <link href="styles-desktop.css" rel="stylesheet" media ='screen and (min-width:800px)'>
     <!-- Linking selected font type from website font awesome-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet"
         type="text/css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
-
+<body>
     <nav> 
         <ul class="navigation_links">
             <li><a href="index.html">Home</a></li>
@@ -24,17 +26,203 @@
         </ul>
     </nav> 
 
-<body>
+
+    <section class="sr_body">
+    <h1>Report of the development of the website  </h1>
+    <h2>Brief:  </h2>
+    <p class="text">
+        This report will be about the development of this website. It will talk through the design, the development stages and errors encountered. The report is laid out in chronological order so that it is easier to follow and read.  
+    </p>
+    <h2>Module experience: </h2>
+    <p class="text">
+        At the very beginning it is worth to mention that I am repeating this module as I have failed it last year. My experience of the module has improved with time, it started off with me having very little of knowledge about web development or interface design however now I can confidently say that my understanding of the module has significantly increased. I can create simple websites using html and css that follow current standards and conventions. I have used parts of my code from the previous year; however, I have adapted it to suit the new structure of the website as well as that it is referenced in the code itself.  
+    </p>
+    <h2> 
+        Designing the website 
+    </h2>
+    <h2>Research </h2>
+    <p class="text" >
+        Before I thought about the design for my website, I decided to do some research first. I have looked at multiple portfolio websites created by web developers get some ideas and inspiration before drafting wireframes.  
+    </p>
+    <img class="img_research"  src="assets/ian_web.PNG" alt="website image"> 
+    <img class="img_research"  src="assets/ian_mobile.PNG" alt="mabile website image"> 
+    
+    <p class="text">
+        Firstly, I came across a website by Ian Lunn (https://ianlunn.co.uk) 
+
+    </p>
+    <p class="text">
+        The reason why I chose this website is because it adapts very well to different sized devices the examples can be seen below. The image on the left shows the web page viewed on a normal sized desktop computer or a laptop the navigation is static at the top of the page so the user can easily navigate through the website. The image on the right shows the website viewed on a mobile phone/tablet, the main difference is the navigation because on the mobile version it has changed to a hamburger type navigation which saves space and makes the mobile version look cleaner. 
+    </p>
+
+    <img class="img_research"  src="assets/timmy_web.PNG" alt="mabile website image"> 
 
 
-</body>
+    <p class="text">
+        The second website I looked at was by Timmy O’Mahony (https://timmyomahony.com/) 
+    </p>
+
+    <p class="text">
+        The reason I chose this website is because it's simple while being informative. I would like my website to be as simple and well structured as Timmy O’Mahony’s . Image below shows how the website looks like.  
+    </p>
+
+    <img class="img_research"  src="assets/dejan_web.PNG" alt="mabile website image"> 
+
+    <P class="text">
+        Another example that I found was by Dejan Markovic (https://www.dejan.works/) 
+    </P>
+
+    <p class="text">
+        This website is so interesting to navigate around and its very minimalistic. This website also uses good contrast with colors to accent the important things. However for this project I will stick to a lighter theme rather than a darker one.  
+    </p>
+
+    <h2>Wire frames for my website</h2>
+    <p class="text">Before I started to develop my website, I decided to do wireframes of the general layout of all my pages.  </p>
+    <p class="text_1"> 
+        Index Page 
+    </p>
+    <img class="img_wireframes"  src="assets/index_photo.PNG" alt="wireftame of index page ">
+   
+    <p class="text_1"> 
+        CV Page 
+    </p>
+    <img class="img_wireframes"  src="assets/cv_photo.PNG" alt="wireftame of the cv page ">
+
+    <p class="text_1"> 
+        Portfolio Page 
+    </p>
+    <img class="img_wireframes"  src="assets/portfolio_photo.PNG" alt="wireftame of the portfolio page ">
+
+    <p class="text_1"> 
+        Contact Page 
+    </p>
+    <img class="img_wireframes"  src="assets/contact_photo.PNG" alt="wireftame of the contact page ">
+
+    <p class="text_1"> 
+        Site Report Page 
+    </p>
+    <img class="img_wireframes"  src="assets/sitereport_photo.PNG" alt="wireftame of the site report page ">
+    <h2>Implementing the website</h2>
+    <p class="text"> 
+        Programming the website was not too challenging once I had the structure and colors in my head. I started off with programming the navigation bar and linking everything to GitHub so that everything is properly backed up.  
+    </p>
+
+    <p class="text">
+        Next, I have programmed each page individually focusing on the features and requirements from the specification. I took some code from my previously implemented page for web development assignment 2 from the previous year.  
+    </p>
+    <h2>
+        Validating the HTML and CSS code
+    </h2>
+    <p class="text_1">
+        Validating index.html
+    </p>
+    <p class="text">
+        I used the W3C validator to validate my HTML websites. The photo underneath shows the result of me running the website through the validator for the first time.  
+    </p>
+    <img   src="assets/first_index_validation.PNG" alt="Index validation">
+    <P class="text">
+        I had few errors and warnings that were syntax errors so they could be easily resolved. The image underneath shows the outcome from the validator once all errors and warnings have been addressed. 
+    </P>
+    <img   src="assets/validated_index.PNG" alt="Index validation">
+
+
+
+    
+    <p class="text_1">
+        Validating cv.html
+    </p>
+    <p class="text">
+        Some errors were present in all the websites because I copied and pasted some sections of code so that my website looks consistent. Therefore, before I ran the cv page code through the validator I corrected the errors that were brought up when validating the index page. As a result of that this website had no errors when validated. 
+    </p>
+    <img   src="assets/validated_cv.PNG" alt="Cv validation">
+
+
+    <p class="text_1">
+        Validating portfolio.html
+    </p>
+
+    <img src="assets/validated_portfolio.PNG" alt="Portfolio validation" >
+
+    <p class="text_1">
+        Validating contact.html
+    </p>
+    <p class="text">
+        First validation of the Portfolio page.
+    </p>
+    <img   src="assets/first_contact_validation.PNG" alt="Contact validation">
+
+    <p class="text">
+        Validation after correcting the error. 
+    </p>
+    <img  src="assets/validated_contact.PNG" alt="Contact validation">
+
+
+    <p class="text_1">
+        Validating sitereport.html
+    </p>
+    <p class="text">
+        First validation of the Site Report page.
+    </p>
+    <img   src="assets/first_sr_validation.PNG" alt="Contact validation">
+
+    <p class="text">
+        Validation after correcting the error. 
+    </p>
+    <img  src="assets/second_sr_valodation.PNG" alt="Contact validation">
+    <p class="text">
+        Validation after correcting the error. 
+    </p>
+    <img  src="assets/validated_sr.PNG" alt="Contact validation">
+
+    <p class="text_1">
+        Validating styles.css
+    </p>
+    <p class="text">
+        For CSS validation I have also used W3C.
+    </p>
+    <p class="text">
+        First validation of the CSS style sheet.
+    </p>
+    <img  src="assets/first_styles_validation.PNG" alt="styles sheet validation">
+    <p class="text">
+        Validation after correcting the error. 
+    </p>
+    <img  src="assets/validates_styles.PNG" alt="styles sheet validation">
+    <p class="text_1">
+        Validating styles-mobile.css
+    </p>
+    <img  src="assets/validated_stylesmobile.PNG" alt="styles sheet validation">
+
+    <p class="text_1">
+        Validating styles-desktop.css
+    </p>
+    <img  src="assets/validated_stylesdesktop.PNG" alt="styles sheet validation">
+
+    <h2>
+        Testing
+    </h2>
+
+    <p class="text">
+        After I have finished the whole website, I made sure that all links were working and linked to the correct pages and that all the pictures loaded correctly.
+    </p>
+    <p class="text">
+        To ensure that my assignment can be viewed from any place on my computer I have moved the folder to a different place and ran the website. Which did work from various places on my laptop. 
+    </p>
+    <p class="text">
+        The website is also adapted to be used on devises such as mobile and to test that I opened the website in google chrome and used the built-in tool called inspect in which you can change the screen sizes and see how your website handles different screen sizes. The mobile adaptation is basic using media queries however it provides a satisfactory outcome.  
+    </p>
+
+
+
+</section>
+
 
 
 
 
 
 <footer class="footer">
-    <h4> Website created by Daria Czajkowska </h4>
+ <!-- <h4> Website created by Daria Czajkowska </h4> -->
     <ul>
         <li>
             <a href="https://www.facebook.com/daria.czajkowska.10" class='rb'>
@@ -63,17 +251,14 @@
                     <a href="https://codepen.io/dariaczajkwowska" class='rb'>
                         <i class="fab fa-codepen"></i>
         
-        
-                        </i>
-        
                     </a></li>
 
 
     </ul>
-
+&copy; Daria Czajkowska 2020
 
 </footer>
 
-
+</body>
 
 </html>
